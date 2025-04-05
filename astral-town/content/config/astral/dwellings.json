@@ -41,24 +41,24 @@
 					}
 				}
 			},
-			"asAltarWish" : {
+			"asAltarEarth" : {
 				"name" : "Altar of Dust and Ash",
 				"creatures" : [[ "aslv5" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "astral/adventure-map/dwelling-5.def",
+						"animation" : "astral/adventure-map/dwelling-6.def",
 						"mask" : [ "VVV", "VBB", "BBA" ]
 					}
 				}
 			},
-			"asAltarEarth" : {
+			"asAltarWish" : {
 				"name" : "Altar of Wish",
 				"creatures" : [[ "aslv6" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "astral/adventure-map/dwelling-6.def",
+						"animation" : "astral/adventure-map/dwelling-5.def",
 						"mask" : [ "VVV", "VBV", "VAB" ]
 					}
 				}
