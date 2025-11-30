@@ -1,13 +1,10 @@
 {
-	"aslv5":
-	{
-		"name" :
-		{
+	"aslv5" : {
+		"name" : {
 			"plural" : "Dust Elementals",
 			"singular" : "Dust Elemental"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 16,
 			"min" : 6
 		},
@@ -15,78 +12,66 @@
 		"aiValue" : 724,
 		"attack" : 12,
 		"hasDoubleWeek" : true,
-                "cost" :
-		{
+		"cost" : {
 			"gold" : 550
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 16,
 			"min" : 13
 		},
 		"defense" : 12,
 		"fightValue" : 742,
 		"horde" : 6,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "astral/battle/lv5.DEF",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "astral/map/lv5Map.def",
 			"iconSmall" : "astral/iconsSmall/lv5m.bmp",
 			"iconLarge" : "astral/iconsBig/lv5s.bmp",
-			"timeBetweenFidgets" : 1,
-			
+			"timeBetweenFidgets" : 1
 		},
 		"growth" : 3,
 		"hitPoints" : 40,
-              	"level" : 5,
-		"upgrades":
-		[
+		"level" : 5,
+		"upgrades" : [
 			"aslv5up"
 		],
-		"sound" :
-		{
-			"attack": "EELMATTK.wav",
-			"defend": "EELMDFND.wav",
-			"killed": "EELMKILL.wav",
-			"move": "EELMMOVE.wav",
-			"wince": "EELMWNCE.wav"
+		"sound" : {
+			"attack" : "EELMATTK.wav",
+			"defend" : "EELMDFND.wav",
+			"killed" : "EELMKILL.wav",
+			"move" : "EELMMOVE.wav",
+			"wince" : "EELMWNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-                     "nonLiving" : 
-			{
+		"abilities" : {
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
-			"immuneToMind" : 
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"meteorShowerVulnerability" :
-			{
+			"meteorShowerVulnerability" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.meteorShower",
 				"val" : 100
 			},
-			"lightingImmunity" :
-			{
+			"lightingImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.lightningBolt"
 			},
-			"chainLightingImmunity" :
-			{
+			"chainLightingImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.chainLightning"
 			},
-			"armageddonImmunity" :
-			{
+			"armageddonImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.armageddon"
 			}
 		}
 	}
 }
-
-
-

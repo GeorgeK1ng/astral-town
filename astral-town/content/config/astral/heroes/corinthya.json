@@ -1,33 +1,27 @@
 {
-	"corinthya" : 
-	{
+	"corinthya" : {
 		"class" : "stPadishah",
 		"female" : true,
-"texts" :
-		{
+		"texts" : {
 			"name" : "Corinthya",
 			"biography" : "nothing yet",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Dao and Dao Sultans}\r\n\r\nIncreases Speed of any Dao or Dao Sultans by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Dao",
 				"name" : "Dao"
 			}
-		}, 
-		"images" :
-		{
+		},
+		"images" : {
 			"specialtySmall" : "astral/heroes/corinthya/spec-small.png",
 			"specialtyLarge" : "astral/heroes/corinthya/spec-large.png",
 			"large" : "astral/heroes/corinthya/portrait-large.png",
 			"small" : "astral/heroes/corinthya/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"berserk"
 		],
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "aslv1",
 				"max" : 20,
@@ -45,8 +39,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -56,12 +49,9 @@
 				"skill" : "waterMagic"
 			}
 		],
-		
-		
+
 		"specialty" : {
 			"creature" : "aslv6"
-		}		
+		}
 	}
 }
-
-

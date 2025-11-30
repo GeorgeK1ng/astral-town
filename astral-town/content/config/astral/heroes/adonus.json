@@ -1,33 +1,27 @@
 {
-	"adonus" : 
-	{
+	"adonus" : {
 		"class" : "stPadishah",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Adonus",
 			"biography" : "nothing yet",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Steam Elementals or Smoke Elementals}\r\n\r\nIncreases Speed of any Steam Elementals or Smoke Elementals by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Steam Elementals",
 				"name" : "Steam Elementals"
 			}
-		}, 
-		"images" :
-		{
+		},
+		"images" : {
 			"specialtySmall" : "astral/heroes/adonus/spec-small.png",
 			"specialtyLarge" : "astral/heroes/adonus/spec-large.png",
 			"large" : "astral/heroes/adonus/portrait-large.png",
 			"small" : "astral/heroes/adonus/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"waterWalk"
 		],
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "aslv1",
 				"max" : 20,
@@ -44,8 +38,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -55,10 +48,9 @@
 				"skill" : "fireMagic"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "aslv2"
-		}		
+		}
 	}
 }
-

@@ -1,27 +1,20 @@
 {
-	"astral" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
+	"astral" : {
+		"town" : {
+			"buildings" : {
+				"mageGuild1" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					}
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -31,12 +24,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -46,12 +37,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild4" : 
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -61,12 +50,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 5",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 10,
 						"ore" : 5,
@@ -76,125 +63,114 @@
 						"gold" : 1000
 					}
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"shipyard" :
-				{
+				"shipyard" : {
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"gold" : 2000
 					}
 				},
-				"fort" :
-				{
+				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					}
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					}
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					}
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					}
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					},
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"blacksmith"
+						],
+						[
+							"marketplace"
+						]
+					]
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					}
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"description" : "The Resourse Silo provides you with an additional +1 mercury each day.",
 					"name" : "Resourse Silo",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "mercury": 1 }
+					"produce" : {
+						"mercury" : 1
+					}
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with Ballista.",
 					"name" : "Blacksmith",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					},
 					"warMachine" : "ballista"
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"description" : "Mushroom Glade increase weekly production of Deserted Shooters and Deserted Hunters by 10 per week.",
 					"name" : "Mushroom Glade",
 					"cost" : {
@@ -202,80 +178,84 @@
 					},
 					"upgrades" : "dwellingLvl1"
 				},
-				"horde1Upgr" :
-				{
+				"horde1Upgr" : {
 					"description" : "Mushroom Glade increase weekly production of Deserted Shooters and Deserted Hunters by 10 per week.",
 					"name" : "Mushroom Glade",
 					"cost" : {
 						"gold" : 1000
 					},
 					"upgrades" : "dwellingUpLvl1",
-					"requires" : [ "horde1" ]
+					"requires" : [
+						"horde1"
+					]
 				},
-				"ship" :
-				{
+				"ship" : {
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships."
 				},
-				"special1" :
-				{
+				"special1" : {
 					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
 					"name" : "Artifact Merchant",
 					"cost" : {
 						"gold" : 10000
 					},
-					"marketModes" : ["resource-artifact", "artifact-resource"],
-					"requires" : [ "resourceSilo" ]
+					"marketModes" : [
+						"resource-artifact",
+						"artifact-resource"
+					],
+					"requires" : [
+						"resourceSilo"
+					]
 				},
-				"special2" :
-				{
+				"special2" : {
 					"description" : "At the Magic University, you can pay to learn any, or all, of the four schools of magic.",
 					"name" : "University of Magic",
 					"cost" : {
 						"gems" : 5,
 						"gold" : 1000
 					},
-					"marketModes" : ["resource-skill"],
-					"requires" : [ "mageGuild1" ]
+					"marketModes" : [
+						"resource-skill"
+					],
+					"requires" : [
+						"mageGuild1"
+					]
 				},
-				"grail" :
-				{
+				"grail" : {
 					"description" : "The Sun increases weekly creature generation by 50 percent, adds 5000 gold per day. All spells can be cast in advanced level at least.",
 					"name" : "Sun",
-					"bonuses": 
-					[
+					"bonuses" : [
 						{
-							"type": "MAGIC_SCHOOL_SKILL",
-							"subtype": "air",
-							"val": 2,
-							"valueType": "INDEPENDENT_MIN",
-							"propagator": "PLAYER" 
+							"type" : "MAGIC_SCHOOL_SKILL",
+							"subtype" : "air",
+							"val" : 2,
+							"valueType" : "INDEPENDENT_MIN",
+							"propagator" : "PLAYER"
 						},
 						{
-							"type": "MAGIC_SCHOOL_SKILL",
-							"subtype": "earth",
-							"val": 2,
-							"valueType": "INDEPENDENT_MIN",
-							"propagator": "PLAYER" 
+							"type" : "MAGIC_SCHOOL_SKILL",
+							"subtype" : "earth",
+							"val" : 2,
+							"valueType" : "INDEPENDENT_MIN",
+							"propagator" : "PLAYER"
 						},
 						{
-							"type": "MAGIC_SCHOOL_SKILL",
-							"subtype": "fire",
-							"val": 2,
-							"valueType": "INDEPENDENT_MIN",
-							"propagator": "PLAYER" 
+							"type" : "MAGIC_SCHOOL_SKILL",
+							"subtype" : "fire",
+							"val" : 2,
+							"valueType" : "INDEPENDENT_MIN",
+							"propagator" : "PLAYER"
 						},
 						{
-							"type": "MAGIC_SCHOOL_SKILL",
-							"subtype": "water",
-							"val": 2,
-							"valueType": "INDEPENDENT_MIN",
-							"propagator": "PLAYER" 
+							"type" : "MAGIC_SCHOOL_SKILL",
+							"subtype" : "water",
+							"val" : 2,
+							"valueType" : "INDEPENDENT_MIN",
+							"propagator" : "PLAYER"
 						}
-					],
+					]
 				},
-				"dwellingLvl1" :
-				{
+				"dwellingLvl1" : {
 					"description" : "The Hovel allows to recruit Deserted Shooters.",
 					"name" : "Hovel",
 					"cost" : {
@@ -283,51 +263,77 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "The Altar of Ooze allow to recruit Ooze Elementals.",
 					"name" : "Altar of Ooze",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 5
 					},
-					"requires" : [ "allOf", [ "fort" ], [ "dwellingLvl1" ], [ "mageGuild1" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl1"
+						],
+						[
+							"mageGuild1"
+						]
+					]
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "The Altar of Steam allows to recruit Steam Elementals.",
 					"name" : "Altar of Steam",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "mageGuild1" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"mageGuild1"
+						]
+					]
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "The Altar of Lightning allows to recruit Lightning Elementals.",
 					"name" : "Altar of Lightning",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
 						"wood" : 5
-						},
-					"requires" : [ "dwellingLvl3" ]
+					},
+					"requires" : [
+						"dwellingLvl3"
+					]
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"description" : "The Altar of Dust allows to recruit Dust Elementals.",
 					"name" : "Altar of Dust",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl4" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"description" : "The Altar of Magic allows to recruit Dao.",
 					"name" : "Altar of Magic",
 					"cost" : {
@@ -339,10 +345,17 @@
 						"mercury" : 2,
 						"crystal" : 2
 					},
-					"requires" : [ "allOf", [ "dwellingLvl4" ], [ "dwellingLvl5" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "The Bonfire allows to recruit Flaming Birds.",
 					"name" : "Bonfire",
 					"cost" : {
@@ -351,10 +364,17 @@
 						"mercury" : 10,
 						"ore" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl6" ], [ "mageGuild1" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl6"
+						],
+						[
+							"mageGuild1"
+						]
+					]
 				},
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"description" : "Upg. The Hovel allows to recruit Deserted Hunters.",
 					"name" : "Upg. Hovel",
 					"cost" : {
@@ -364,8 +384,7 @@
 					},
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "The Altar of Salt allow to recruit Salt Elementals.",
 					"name" : "Altar of Salt",
 					"cost" : {
@@ -377,8 +396,7 @@
 					},
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "The Altar of Smoke allows to recruit Smoke Elementals.",
 					"name" : "Altar of Smoke",
 					"cost" : {
@@ -388,8 +406,7 @@
 					},
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "The Altar of Radiance allows to recruit Radiance Elementals.",
 					"name" : "Altar of Radiance",
 					"cost" : {
@@ -399,8 +416,7 @@
 					},
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"description" : "The Altar of Ash allows to recruit Ash Elementals.",
 					"name" : "Altar of Ash",
 					"cost" : {
@@ -410,8 +426,7 @@
 					//"requires" : [ "mageGuild1" ],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "Upg. The Altar of Magic allows to recruit Dao Sultans.",
 					"name" : "Upg. Altar of Magic",
 					"cost" : {
@@ -423,11 +438,18 @@
 						"mercury" : 3,
 						"crystal" : 3
 					},
-					"requires" : [ "allOf", [ "dwellingUpLvl5" ], [ "mageGuild2" ] ],
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl5"
+						],
+						[
+							"mageGuild2"
+						]
+					],
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "Upg. The Bonfire allows to recruit Heaven Phoenixs.",
 					"name" : "Upg. Bonfire",
 					"cost" : {
@@ -435,13 +457,19 @@
 						"wood" : 10,
 						"mercury" : 15,
 						"ore" : 10
-
 					},
-					"requires" : [ "allOf", [ "dwellingUpLvl6" ], [ "mageGuild3" ] ],
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl6"
+						],
+						[
+							"mageGuild3"
+						]
+					],
 					"upgrades" : "dwellingLvl7"
 				}
 			}
 		}
 	}
 }
-

@@ -1,35 +1,33 @@
 {
-	"aslv7up":
-	{
-		"name" :
-		{
+	"aslv7up" : {
+		"name" : {
 			"plural" : "Heaven Phoenixes",
 			"singular" : "Heaven Phoenix"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 3
 		},
 		"faction" : "astral",
 		"aiValue" : 4000,
 		"attack" : 23,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 3000,
 			"mercury" : 2
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 50,
 			"min" : 40
 		},
 		"defense" : 22,
 		"fightValue" : 4635,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "astral/battle/lv7up.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "astral/map/lv7upMap.def",
 			"iconSmall" : "astral/iconsSmall/lv7upm.bmp",
 			"iconLarge" : "astral/iconsBig/lv7ups.bmp",
@@ -39,45 +37,36 @@
 		"growth" : 1,
 		"hitPoints" : 250,
 		"level" : 7,
-		"sound" :
-		{
-			"attack": "PHOEATTK.wav",
-			"defend": "PHOEDFND.wav",
-			"killed": "PHOEKILL.wav",
-			"move": "PHOEMOVE.wav",
-			"wince": "PHOEWNCE.wav"
-                     
+		"sound" : {
+			"attack" : "PHOEATTK.wav",
+			"defend" : "PHOEDFND.wav",
+			"killed" : "PHOEKILL.wav",
+			"move" : "PHOEMOVE.wav",
+			"wince" : "PHOEWNCE.wav"
 		},
 		"speed" : 15,
-		"abilities":
-		{
-			"rebirthOnce" :
-			{
+		"abilities" : {
+			"rebirthOnce" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"rebirth" : 
-			{
+			"rebirth" : {
 				"type" : "REBIRTH",
 				"val" : 20
 			},
-			"fireShield" :
-			{
+			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 25
 			},
-			"fireBreath" :
-			{
+			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"ImmunityToFire" :
-			{
+			"ImmunityToFire" : {
 				"subtype" : "fire",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},
-		    "KING1":
-			{
+			"KING1" : {
 				"type" : "KING",
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"

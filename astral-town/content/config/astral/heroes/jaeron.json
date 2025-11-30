@@ -1,34 +1,27 @@
 {
-	"jaeron" : 
-	{
+	"jaeron" : {
 		"class" : "stPadishah",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Jaeron",
 			"biography" : "undetermined.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "{Stone Skin}\r\n\r\nHero can cast the Stone Skin spell with increased effectiveness.",
 				"tooltip" : "Spell Bonus: Stone skin",
 				"name" : "Stone Skin"
 			}
 		},
-		"images" :
-		{
-			
+		"images" : {
 			"specialtySmall" : "astral/heroes/jaeron/spec-small.png",
 			"specialtyLarge" : "astral/heroes/jaeron/spec-large.png",
 			"large" : "astral/heroes/jaeron/portrait-large.png",
 			"small" : "astral/heroes/jaeron/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"disguise"
 		],
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "aslv1",
 				"max" : 20,
@@ -46,9 +39,7 @@
 			}
 		],
 
-
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,7 +49,7 @@
 				"skill" : "intelligence"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"stoneSkin" : {

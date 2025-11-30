@@ -1,30 +1,25 @@
 {
-	"yurian" :
-	{
+	"yurian" : {
 		"class" : "stIlluminate",
 		"female" : false,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Yurian",
 			"biography" : "undetermined",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
 				"tooltip" : "Secondary Skill Bonus: Intelligence",
 				"name" : "Intelligence"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "astral/heroes/yurian/spec-small.png",
 			"specialtyLarge" : "astral/heroes/yurian/spec-large.png",
 			"large" : "astral/heroes/yurian/portrait-large.png",
 			"small" : "astral/heroes/yurian/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "aslv1",
 				"max" : 20,
@@ -42,9 +37,7 @@
 			}
 		],
 
-
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
@@ -54,7 +47,7 @@
 				"skill" : "offence"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "intelligence"
 		}

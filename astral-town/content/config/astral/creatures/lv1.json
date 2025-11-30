@@ -1,26 +1,23 @@
 {
-	"aslv1":
-	{
-		"name" :
-		{
+	"aslv1" : {
+		"name" : {
 			"plural" : "Deserted Shooters",
 			"singular" : "Deserted Shooter"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 15
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 15
 		},
 		"faction" : "astral",
-		"upgrades": ["aslv1up"],
+		"upgrades" : [
+			"aslv1up"
+		],
 		"level" : 1,
 		"attack" : 3,
 		"defense" : 3,
-		"damage" :
-		{
-			 "min" : 1,
-			 "max" : 2
-
+		"damage" : {
+			"min" : 1,
+			"max" : 2
 		},
 		"growth" : 20,
 		"hitPoints" : 5,
@@ -29,29 +26,24 @@
 		"fightValue" : 113,
 		"aiValue" : 120,
 		"shots" : 18,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 35
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "astral/battle/lv1.def",
 			"map" : "astral/map/lv1Map.def",
 			"iconSmall" : "astral/iconsSmall/lv1m.bmp",
 			"iconLarge" : "astral/iconsBig/lv1s.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
-				"projectile": "PELFX.DEF",
+			"missile" : {
+				"projectile" : "PELFX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -59,22 +51,32 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-		},	
-		"sound" :
-		{
-			"attack": "LCRSATTK.wav",
-			"defend": "LCRSDFND.wav",
-			"killed": "LCRSKILL.wav",
-			"move": "LCRSMOVE.wav",
-			"shoot": "LCRSSHOT.wav",
-			"wince": "LCRSWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"sound" : {
+			"attack" : "LCRSATTK.wav",
+			"defend" : "LCRSDFND.wav",
+			"killed" : "LCRSKILL.wav",
+			"move" : "LCRSMOVE.wav",
+			"shoot" : "LCRSSHOT.wav",
+			"wince" : "LCRSWNCE.wav"
+		},
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			}
 		}

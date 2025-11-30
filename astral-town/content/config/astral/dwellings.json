@@ -3,77 +3,132 @@
 		"types" : {
 			"asHovel" : {
 				"name" : "Hovel",
-				"creatures" : [[ "aslv1" ]],
+				"creatures" : [
+					[
+						"aslv1"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "astral/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"asAltarWater" : {
 				"name" : "Altar of Ooze and Salt",
-				"creatures" : [[ "aslv2" ]],
+				"creatures" : [
+					[
+						"aslv2"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "astral/adventure-map/dwelling-2.def",
-						"mask" : [ "VVVV", "VVV", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVV",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"asAltarAir" : {
 				"name" : "Altar of Steam and Smoke",
-				"creatures" : [[ "aslv3" ]],
+				"creatures" : [
+					[
+						"aslv3"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "astral/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"asAltarFire" : {
 				"name" : "Altar of Lightning and Rasiance",
-				"creatures" : [[ "aslv4" ]],
+				"creatures" : [
+					[
+						"aslv4"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "astral/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"asAltarEarth" : {
 				"name" : "Altar of Dust and Ash",
-				"creatures" : [[ "aslv5" ]],
+				"creatures" : [
+					[
+						"aslv5"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "astral/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"asAltarWish" : {
 				"name" : "Altar of Wish",
-				"creatures" : [[ "aslv6" ]],
+				"creatures" : [
+					[
+						"aslv6"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "astral/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"asBonfire" : {
 				"name" : "Bonfire",
-				"creatures" : [[ "aslv7" ]],
+				"creatures" : [
+					[
+						"aslv7"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "astral/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "VVB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

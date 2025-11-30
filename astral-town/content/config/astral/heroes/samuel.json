@@ -1,35 +1,28 @@
 {
-	"samuel" : 
-	{
-
+	"samuel" : {
 		"class" : "stIlluminate",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Samuel",
 			"biography" : "undetermined",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
 				"tooltip" : "Secondary Skill Bonus: Scouting",
 				"name" : "Scouting"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "astral/heroes/samuel/spec-small.png",
 			"specialtyLarge" : "astral/heroes/samuel/spec-large.png",
 			"large" : "astral/heroes/samuel/portrait-large.png",
 			"small" : "astral/heroes/samuel/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
-		       "viewEarth"
+		"spellbook" : [
+			"viewEarth"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "aslv1",
 				"max" : 20,
@@ -47,9 +40,7 @@
 			}
 		],
 
-
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,10 +50,9 @@
 				"skill" : "scouting"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "scouting"
 		}
 	}
 }
-

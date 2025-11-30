@@ -1,28 +1,23 @@
 {
-	"gavinus" : 
-	{
+	"gavinus" : {
 		"class" : "stIlluminate",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Gavinus",
 			"biography" : "nothing yet.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Diplomacy}\r\n\r\nStarts with advanced Diplomacy.",
 				"tooltip" : "Secondary Skill Bonus: Diplomacy",
 				"name" : "Diplomacy"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "astral/heroes/gavinus/spec-small.png",
 			"specialtyLarge" : "astral/heroes/gavinus/spec-large.png",
 			"large" : "astral/heroes/gavinus/portrait-large.png",
 			"small" : "astral/heroes/gavinus/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "aslv1",
 				"max" : 20,
@@ -39,15 +34,12 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "diplomacy"
 			}
 		],
-		"specialty":
-		{
-		}
+		"specialty" : {}
 	}
 }

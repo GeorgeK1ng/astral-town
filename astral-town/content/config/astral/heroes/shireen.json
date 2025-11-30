@@ -1,28 +1,23 @@
 {
-	"shireen" : 
-	{
+	"shireen" : {
 		"class" : "stPadishah",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Shireen",
 			"biography" : "nothing yet",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "{Haste}\r\n\r\nHero can cast the Haste spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Haste",
 				"name" : "Haste"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "astral/heroes/shireen/spec-small.png",
 			"specialtyLarge" : "astral/heroes/shireen/spec-large.png",
 			"large" : "astral/heroes/shireen/portrait-large.png",
 			"small" : "astral/heroes/shireen/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "aslv1",
 				"max" : 20,
@@ -40,8 +35,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -51,8 +45,7 @@
 				"skill" : "waterMagic"
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"haste"
 		],
 		"specialty" : {

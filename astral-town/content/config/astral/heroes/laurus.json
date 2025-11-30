@@ -1,28 +1,23 @@
 {
-	"laurus" :
-	{
+	"laurus" : {
 		"class" : "stIlluminate",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Laurus",
 			"biography" : "undetermined.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
 				"tooltip" : "Secondary Skill Bonus: Armorer",
 				"name" : "Armorer"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "astral/heroes/laurus/spec-small.png",
 			"specialtyLarge" : "astral/heroes/laurus/spec-large.png",
 			"large" : "astral/heroes/laurus/portrait-large.png",
 			"small" : "astral/heroes/laurus/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "aslv1",
 				"max" : 20,
@@ -40,7 +35,6 @@
 			}
 		],
 
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -51,7 +45,7 @@
 				"skill" : "tactics"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "armorer"
 		}
