@@ -3,9 +3,12 @@
 	"description" : "Astral town",
 	"author" : "ROFL team",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "0.5.5",
+	"version" : "0.5.6",
 	"modType" : "Town",
 	"changelog" : {
+		"0.5.6" : [
+			"Converted BMP2PNG"
+		],
 		"0.5.5" : [
 			"Update to vcmi-1.7 format"
 		],
