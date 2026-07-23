@@ -36,7 +36,7 @@
 		"name" : "星界",
 		"description" : "新城镇星界",
 		"translations" : [
-			"translation/astral/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"compatibility" : {
