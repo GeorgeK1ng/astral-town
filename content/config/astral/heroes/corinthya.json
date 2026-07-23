@@ -6,7 +6,7 @@
 			"name" : "Corinthya",
 			"biography" : "Corinthya earned the respect of the Dao by settling disputes no mortal court could judge. Their oaths of service brought her to Astral, where she tempers elemental fury with wisdom and restraint.",
 			"specialty" : {
-				"description" : "Increases the Attack and Defense skills of any Dao or Dao Khans for each level attained after 6th level.",
+				"description" : "Increases Speed of any Dao or Dao Khans by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Dao",
 				"name" : "Dao"
 			}
