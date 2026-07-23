@@ -4,11 +4,11 @@
 		"female" : false,
 
 		"texts" : {
-			"name" : "Lavina",
-			"biography" : "undetermined",
+			"name" : "Lavinius",
+			"biography" : "Lavinius follows the sulfur springs that thread through Astral's volcanic foothills. His careful stewardship keeps the town's furnaces burning and its elemental rites supplied.",
 			"specialty" : {
-				"description" : "{Sulfur + 1}\r\n\r\nIncreases kingdom's income by 1 Sulfur per day",
-				"tooltip" : "+1 Sulfur each day",
+				"description" : "Increases kingdom's sulfur production by 1 per day.",
+				"tooltip" : "+1 Sulfur each day.",
 				"name" : "+1 Sulfur"
 			}
 		},

@@ -4,9 +4,9 @@
 		"female" : false,
 		"texts" : {
 			"name" : "Artemis",
-			"biography" : "nothing yet",
+			"biography" : "Artemis was once a trail guide on the sun-scorched borders of Astral. Her patient eye and unerring aim made her the natural leader of the Deserted Shooters who now guard those lonely roads.",
 			"specialty" : {
-				"description" : "{Deserted Shooters or Deserted Hunters}\r\n\r\nIncreases Speed of any Deserted Shooters or Deserted Hunters by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"description" : "Increases Speed of any Deserted Shooters or Deserted Hunters by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Deserted Shooters",
 				"name" : "Deserted Shooters"
 			}

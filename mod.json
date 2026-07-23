@@ -32,6 +32,13 @@
 			"Initial release"
 		]
 	},
+	"czech" : {
+		"name" : "Astral",
+		"description" : "Město Astral",
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
 	"chinese" : {
 		"name" : "星界",
 		"description" : "新城镇星界",

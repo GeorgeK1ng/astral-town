@@ -4,9 +4,9 @@
 		"female" : false,
 		"texts" : {
 			"name" : "Laurus",
-			"biography" : "undetermined.",
+			"biography" : "Laurus forged armor for the first defenders of Astral, blending tempered steel with dust from the elemental altars. He joined the field ranks to prove that every shield can become a bulwark.",
 			"specialty" : {
-				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Armorer",
 				"name" : "Armorer"
 			}

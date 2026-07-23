@@ -4,9 +4,9 @@
 		"female" : true,
 		"texts" : {
 			"name" : "Nadine",
-			"biography" : "nothing yet",
+			"biography" : "Nadine was raised among the ash dunes west of Astral, where wind can uncover a city overnight. Her bond with dust and ash elementals makes her an invaluable guide through the shifting wastes.",
 			"specialty" : {
-				"description" : "{Dust Elementals or Ash Elementals}\r\n\r\nIncreases Speed of any Dust Elementals or Ash Elementals by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
+				"description" : "Increases Speed of any Dust Elementals or Ash Elementals by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Dust Elementals",
 				"name" : "Dust Elementals"
 			}

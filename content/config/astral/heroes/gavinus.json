@@ -4,9 +4,9 @@
 		"female" : false,
 		"texts" : {
 			"name" : "Gavinus",
-			"biography" : "nothing yet.",
+			"biography" : "Gavinus has spent a lifetime turning rival captains into allies. His calm voice and knowledge of elemental customs allow Astral to welcome soldiers who might otherwise stand against it.",
 			"specialty" : {
-				"description" : "{Diplomacy}\r\n\r\nStarts with advanced Diplomacy.",
+				"description" : "Starts with advanced Diplomacy.",
 				"tooltip" : "Secondary Skill Bonus: Diplomacy",
 				"name" : "Diplomacy"
 			}

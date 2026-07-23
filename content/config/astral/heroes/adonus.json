@@ -4,9 +4,9 @@
 		"female" : false,
 		"texts" : {
 			"name" : "Adonus",
-			"biography" : "nothing yet",
+			"biography" : "Adonus learned to read the currents of steam in the old bathhouses of Astral. When the restless vapors began answering his commands, he left the city's workshops to serve the elemental cause.",
 			"specialty" : {
-				"description" : "{Steam Elementals or Smoke Elementals}\r\n\r\nIncreases Speed of any Steam Elementals or Smoke Elementals by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"description" : "Increases Speed of any Steam Elementals or Smoke Elementals by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Steam Elementals",
 				"name" : "Steam Elementals"
 			}
