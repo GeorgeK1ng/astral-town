@@ -5,9 +5,9 @@
 
 		"texts" : {
 			"name" : "Yurian",
-			"biography" : "undetermined",
+			"biography" : "Yurian guards a library of elemental charts gathered from every corner of the realm. He believes knowledge is the fifth element, and uses it to make Astral's magic endure.",
 			"specialty" : {
-				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
+				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Intelligence",
 				"name" : "Intelligence"
 			}

@@ -4,10 +4,10 @@
 		"female" : false,
 		"texts" : {
 			"name" : "Jaeron",
-			"biography" : "undetermined.",
+			"biography" : "Jaeron studied the mineral veins beneath Astral until he could hear stone shifting in the dark. He now shapes that patient strength into wards that shelter his companions from harm.",
 			"specialty" : {
-				"description" : "{Stone Skin}\r\n\r\nHero can cast the Stone Skin spell with increased effectiveness.",
-				"tooltip" : "Spell Bonus: Stone skin",
+				"description" : "Casts Stone Skin with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"tooltip" : "Spell Bonus: Stone Skin",
 				"name" : "Stone Skin"
 			}
 		},

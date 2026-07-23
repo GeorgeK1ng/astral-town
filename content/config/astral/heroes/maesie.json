@@ -4,9 +4,9 @@
 		"female" : true,
 		"texts" : {
 			"name" : "Maesie",
-			"biography" : "",
+			"biography" : "Maesie is a swift-moving scout who studies the moment when fear becomes fury. She leads Astral's skirmishers through broken ground, then turns a foe's confusion into a decisive rout.",
 			"specialty" : {
-				"description" : "{Berserk}\r\n\r\nCreatures under Berserk do more damage, depending on relation between Perha's level and creature's level.",
+				"description" : "Creatures under Berserk do more damage, depending on relation between Maesie's level and creature's level.",
 				"tooltip" : "Spell Bonus: Berserk",
 				"name" : "Berserk"
 			}

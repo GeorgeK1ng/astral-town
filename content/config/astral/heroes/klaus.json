@@ -3,10 +3,10 @@
 		"class" : "stPadishah",
 		"female" : false,
 		"texts" : {
-			"name" : "Klau",
-			"biography" : "nothing yet",
+			"name" : "Klaus",
+			"biography" : "Klaus served as a caravan guard before a storm elemental saved his company from raiders. Since then, he has carried the art of protection to Astral's most exposed frontiers.",
 			"specialty" : {
-				"description" : "{Shield}\r\n\r\nHero can cast the Shield spell with increased effectiveness",
+				"description" : "Casts Shield with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"tooltip" : "Spell Bonus: Shield",
 				"name" : "Shield"
 			}

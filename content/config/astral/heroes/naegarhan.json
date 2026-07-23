@@ -4,11 +4,11 @@
 		"female" : false,
 
 		"texts" : {
-			"name" : "Naegarhana",
-			"biography" : "undetermined",
+			"name" : "Naegarhan",
+			"biography" : "Naegarhan sought the hidden harmonies between the four elements long before Astral was founded. His experiments are daring, but his command of raw magic has saved the town more than once.",
 			"specialty" : {
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
-				"tooltip" : "Receives a 5% per level bonus to Sorcery skill.",
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}
 		},

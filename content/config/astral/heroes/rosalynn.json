@@ -4,9 +4,9 @@
 		"female" : true,
 		"texts" : {
 			"name" : "Rosalynn",
-			"biography" : "",
+			"biography" : "Rosalynn chased lightning across the high mesas as a child and learned to welcome its thunder. The Radiance Elementals answer her call with the same fierce brilliance.",
 			"specialty" : {
-				"description" : "{Lightning Elementals or Radiance Elementals}\r\n\r\nIncreases Speed of any Lightning Elementals or Radiance Elementals by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"description" : "Increases the Attack and Defense skills of any Lightning Elementals or Radiance Elementals for each level attained after 4th level.",
 				"tooltip" : "Creature Bonus: Lightning Elementals",
 				"name" : "Lightning Elementals"
 			}

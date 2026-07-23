@@ -4,9 +4,9 @@
 		"female" : false,
 		"texts" : {
 			"name" : "Samuel",
-			"biography" : "undetermined",
+			"biography" : "Samuel mapped Astral's forgotten wells and storm paths before he ever commanded an army. His keen eyes now keep its explorers one step ahead of danger.",
 			"specialty" : {
-				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
+				"description" : "Receives a 5% per level bonus to Scouting skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Scouting",
 				"name" : "Scouting"
 			}

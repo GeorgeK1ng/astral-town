@@ -157,8 +157,8 @@
 					}
 				},
 				"resourceSilo" : {
-					"description" : "The Resourse Silo provides you with an additional +1 mercury each day.",
-					"name" : "Resourse Silo",
+					"description" : "The Resource Silo provides your kingdom with 1 additional Mercury each day.",
+					"name" : "Resource Silo",
 					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
@@ -171,7 +171,7 @@
 					}
 				},
 				"blacksmith" : {
-					"description" : "The Blacksmith provides your armies with Ballista.",
+					"description" : "The Blacksmith provides your armies with Ballistas.",
 					"name" : "Blacksmith",
 					"cost" : {
 						"wood" : 5,
@@ -180,7 +180,7 @@
 					"warMachine" : "ballista"
 				},
 				"horde1" : {
-					"description" : "Mushroom Glade increase weekly production of Deserted Shooters and Deserted Hunters by 10 per week.",
+					"description" : "The Mushroom Glade increases the weekly growth of Deserted Shooters and Deserted Hunters by 10.",
 					"name" : "Mushroom Glade",
 					"cost" : {
 						"gold" : 1000
@@ -188,7 +188,7 @@
 					"upgrades" : "dwellingLvl1"
 				},
 				"horde1Upgr" : {
-					"description" : "Mushroom Glade increase weekly production of Deserted Shooters and Deserted Hunters by 10 per week.",
+					"description" : "The Mushroom Glade increases the weekly growth of Deserted Shooters and Deserted Hunters by 10.",
 					"name" : "Mushroom Glade",
 					"cost" : {
 						"gold" : 1000
@@ -231,7 +231,7 @@
 					]
 				},
 				"grail" : {
-					"description" : "The Sun increases weekly creature generation by 50 percent, adds 5000 gold per day. All spells can be cast in advanced level at least.",
+					"description" : "The Sun increases weekly creature growth by 50%, provides 5,000 gold per day, and grants all heroes at least Advanced skill in each school of magic.",
 					"name" : "Sun",
 					"produce" : {
 						"gold" : 5000
@@ -268,7 +268,7 @@
 					]
 				},
 				"dwellingLvl1" : {
-					"description" : "The Hovel allows to recruit Deserted Shooters.",
+					"description" : "The Hovel allows you to recruit Deserted Shooters.",
 					"name" : "Hovel",
 					"cost" : {
 						"gold" : 300,
@@ -280,7 +280,7 @@
 					]
 				},
 				"dwellingLvl2" : {
-					"description" : "The Altar of Ooze allow to recruit Ooze Elementals.",
+					"description" : "The Altar of Ooze allows you to recruit Ooze Elementals.",
 					"name" : "Altar of Ooze",
 					"cost" : {
 						"gold" : 1500,
@@ -300,7 +300,7 @@
 					]
 				},
 				"dwellingLvl3" : {
-					"description" : "The Altar of Steam allows to recruit Steam Elementals.",
+					"description" : "The Altar of Steam allows you to recruit Steam Elementals.",
 					"name" : "Altar of Steam",
 					"cost" : {
 						"gold" : 1500,
@@ -317,7 +317,7 @@
 					]
 				},
 				"dwellingLvl4" : {
-					"description" : "The Altar of Lightning allows to recruit Lightning Elementals.",
+					"description" : "The Altar of Lightning allows you to recruit Lightning Elementals.",
 					"name" : "Altar of Lightning",
 					"cost" : {
 						"gold" : 2000,
@@ -329,7 +329,7 @@
 					]
 				},
 				"dwellingLvl5" : {
-					"description" : "The Altar of Dust allows to recruit Dust Elementals.",
+					"description" : "The Altar of Dust allows you to recruit Dust Elementals.",
 					"name" : "Altar of Dust",
 					"cost" : {
 						"gold" : 2000,
@@ -346,7 +346,7 @@
 					]
 				},
 				"dwellingLvl6" : {
-					"description" : "The Altar of Magic allows to recruit Dao.",
+					"description" : "The Altar of Magic allows you to recruit Dao.",
 					"name" : "Altar of Magic",
 					"cost" : {
 						"gold" : 3000,
@@ -368,7 +368,7 @@
 					]
 				},
 				"dwellingLvl7" : {
-					"description" : "The Bonfire allows to recruit Flaming Birds.",
+					"description" : "The Bonfire allows you to recruit Flaming Birds.",
 					"name" : "Bonfire",
 					"cost" : {
 						"gold" : 10000,
@@ -387,7 +387,7 @@
 					]
 				},
 				"dwellingUpLvl1" : {
-					"description" : "Upg. The Hovel allows to recruit Deserted Hunters.",
+					"description" : "The upgraded Hovel allows you to recruit Deserted Hunters.",
 					"name" : "Upg. Hovel",
 					"cost" : {
 						"gold" : 1000,
@@ -397,7 +397,7 @@
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" : {
-					"description" : "Upg. The Altar of Salt allow to recruit Salt Elementals.",
+					"description" : "The upgraded Altar of Salt allows you to recruit Salt Elementals.",
 					"name" : "Upg. Altar of Salt",
 					"cost" : {
 						"gold" : 1500,
@@ -409,7 +409,7 @@
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
-					"description" : "Upg. The Altar of Smoke allows to recruit Smoke Elementals.",
+					"description" : "The upgraded Altar of Smoke allows you to recruit Smoke Elementals.",
 					"name" : "Upg. Altar of Smoke",
 					"cost" : {
 						"gold" : 2000,
@@ -419,7 +419,7 @@
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
-					"description" : "Upg. The Altar of Radiance allows to recruit Radiance Elementals.",
+					"description" : "The upgraded Altar of Radiance allows you to recruit Radiance Elementals.",
 					"name" : "Upg. Altar of Radiance",
 					"cost" : {
 						"gold" : 2000,
@@ -429,7 +429,7 @@
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
-					"description" : "Upg. The Altar of Ash allows to recruit Ash Elementals.",
+					"description" : "The upgraded Altar of Ash allows you to recruit Ash Elementals.",
 					"name" : "Upg. Altar of Ash",
 					"cost" : {
 						"gold" : 1000,
@@ -439,7 +439,7 @@
 					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" : {
-					"description" : "Upg. The Altar of Magic allows to recruit Dao Sultans.",
+					"description" : "The upgraded Altar of Magic allows you to recruit Dao Khans.",
 					"name" : "Upg. Altar of Magic",
 					"cost" : {
 						"gold" : 3000,
@@ -462,7 +462,7 @@
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" : {
-					"description" : "Upg. The Bonfire allows to recruit Heaven Phoenixs.",
+					"description" : "The upgraded Bonfire allows you to recruit Heaven Phoenixes.",
 					"name" : "Upg. Bonfire",
 					"cost" : {
 						"gold" : 15000,
